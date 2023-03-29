@@ -3,3 +3,8 @@
 ex1
 https://editor.p5js.org/coffiemug/sketches/rr3yTnQ0l
 use for() loops to create diagonals of a sprite. give each sprite a random color from an array.
+
+ex2
+https://editor.p5js.org/coffiemug/sketches/RYJ8GH1rr
+not completed
+creating a grid of circles with nested for() loops. add a color gradient across the grid.
