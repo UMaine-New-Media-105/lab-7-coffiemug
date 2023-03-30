@@ -8,15 +8,20 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background('hsl(220,60%,50%)');
   translate(buffer,buffer)
   push();
   for(let rowsDrawn=0;rowsDrawn<circleCount;rowsDrawn++){
-    for(let columnsDrawn=0;columnsDrawn<circleCount;columnsDrawn++){
-  fill('red');
+    push();
+    for(let circlesDrawn=0;circlesDrawn<circleCount;circlesDrawn++){
+  fill('darkblue');
+      stroke('white');
     ellipse(0,0,width/circleCount);
-    translate(width/circleCount,width/circleCount);
+    translate(width/circleCount,0);
   }
+    pop();
+    push();
+  translate(0,width/circleCount)
   }
   pop();
 }
